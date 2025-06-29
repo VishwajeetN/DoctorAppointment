@@ -1,0 +1,82 @@
+@DocAppointment_HostAddress = http://localhost:5156/api
+
+GET {{DocAppointment_HostAddress}}/Appointment/GetAllAppointment
+Accept: application/json
+
+###
+
+
+
+GET {{DocAppointment_HostAddress}}/Appointment/GetAppointmentByDoctor/1
+Accept: application/json
+
+###
+
+
+POST {{DocAppointment_HostAddress}}/Patient/SaveAppointment/1/1/1/10/20/"2025-06-01T10:30:00"
+Content-type: application/json
+
+###
+
+POST {{DocAppointment_HostAddress}}/Patient/SaveAppointmentDetails
+Content-type: application/json
+{
+  "doctorId": 2,
+  "patientId": 1,
+  "status":1,
+  "hours":10,
+  "mins": 20,
+  "appointmentDate": "2025-06-01T10:30:00"
+}
+
+###
+
+POST {{DocAppointment_HostAddress}}/User/Registration
+Content-type: application/json
+{
+  "name": "Anita Jog",
+  "age": 23,
+  "gender":1,
+  "state":"Goa",
+  "city": "Panji",
+  "address": "Gokul Niwas",
+  "pin": "234567",
+  "mobile": "7676767676",
+  "userName": "Anita",
+  "password": "anita"
+}
+
+###
+
+GET {{DocAppointment_HostAddress}}/Appointment/GetAppointmentByPatient/17/0
+Accept: application/json
+
+###
+
+POST {{DocAppointment_HostAddress}}/Doctor/SaveDoctorScheduleAppointment
+Content-type: application/json
+{
+  "doctorId": 2,
+  "status":0,
+  "fromHours":10,
+  "fromMins": 30,
+  "toHours":13,
+  "toMins": 30,
+  "appointmentDate": "2025-05-30T10:30:00"
+}
+
+###
+
+POST {{DocAppointment_HostAddress}}/User/Login
+Content-type: application/json
+{
+  "user": "1",
+  "userName":"Harbhajan",
+  "password":"harbhajan123"
+}
+###
+
+GET {{DocAppointment_HostAddress}}/Doctor/GetAllDoctorsList
+Accept: application/json
+
+###

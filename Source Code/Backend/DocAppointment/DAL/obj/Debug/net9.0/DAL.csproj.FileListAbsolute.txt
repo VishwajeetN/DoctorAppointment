@@ -1,0 +1,12 @@
+C:\code\Sample\DocAppointment\DAL\bin\Debug\net9.0\DAL.deps.json
+C:\code\Sample\DocAppointment\DAL\bin\Debug\net9.0\DAL.dll
+C:\code\Sample\DocAppointment\DAL\bin\Debug\net9.0\DAL.pdb
+C:\code\Sample\DocAppointment\DAL\obj\Debug\net9.0\DAL.csproj.AssemblyReference.cache
+C:\code\Sample\DocAppointment\DAL\obj\Debug\net9.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\code\Sample\DocAppointment\DAL\obj\Debug\net9.0\DAL.AssemblyInfoInputs.cache
+C:\code\Sample\DocAppointment\DAL\obj\Debug\net9.0\DAL.AssemblyInfo.cs
+C:\code\Sample\DocAppointment\DAL\obj\Debug\net9.0\DAL.csproj.CoreCompileInputs.cache
+C:\code\Sample\DocAppointment\DAL\obj\Debug\net9.0\DAL.dll
+C:\code\Sample\DocAppointment\DAL\obj\Debug\net9.0\refint\DAL.dll
+C:\code\Sample\DocAppointment\DAL\obj\Debug\net9.0\DAL.pdb
+C:\code\Sample\DocAppointment\DAL\obj\Debug\net9.0\ref\DAL.dll
